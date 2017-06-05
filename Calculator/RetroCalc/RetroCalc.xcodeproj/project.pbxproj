@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B297361EE4CAE300B42007 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15B297351EE4CAE300B42007 /* Minecraft.ttf */; };
+		15EC7BD81EE4B7D400DC3673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EC7BD71EE4B7D400DC3673 /* AppDelegate.swift */; };
+		15EC7BDA1EE4B7D400DC3673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EC7BD91EE4B7D400DC3673 /* ViewController.swift */; };
+		15EC7BDD1EE4B7D400DC3673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EC7BDB1EE4B7D400DC3673 /* Main.storyboard */; };
+		15EC7BDF1EE4B7D400DC3673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EC7BDE1EE4B7D400DC3673 /* Assets.xcassets */; };
+		15EC7BE21EE4B7D400DC3673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EC7BE01EE4B7D400DC3673 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15B297351EE4CAE300B42007 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		15EC7BD41EE4B7D400DC3673 /* RetroCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EC7BD71EE4B7D400DC3673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15EC7BD91EE4B7D400DC3673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15EC7BDC1EE4B7D400DC3673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15EC7BDE1EE4B7D400DC3673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15EC7BE11EE4B7D400DC3673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15EC7BE31EE4B7D400DC3673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EC7BEC1EE4B7D400DC3673 /* RetroCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalcTests.swift; sourceTree = "<group>"; };
+		15EC7BEE1EE4B7D400DC3673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EC7BF71EE4B7D400DC3673 /* RetroCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalcUITests.swift; sourceTree = "<group>"; };
+		15EC7BF91EE4B7D400DC3673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EC7BD11EE4B7D400DC3673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EC7BCB1EE4B7D400DC3673 = {
+			isa = PBXGroup;
+			children = (
+				15EC7BD61EE4B7D400DC3673 /* RetroCalc */,
+				15EC7BEB1EE4B7D400DC3673 /* RetroCalcTests */,
+				15EC7BF61EE4B7D400DC3673 /* RetroCalcUITests */,
+				15EC7BD51EE4B7D400DC3673 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15EC7BD51EE4B7D400DC3673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EC7BD41EE4B7D400DC3673 /* RetroCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15EC7BD61EE4B7D400DC3673 /* RetroCalc */ = {
+			isa = PBXGroup;
+			children = (
+				15B297351EE4CAE300B42007 /* Minecraft.ttf */,
+				15EC7BD71EE4B7D400DC3673 /* AppDelegate.swift */,
+				15EC7BD91EE4B7D400DC3673 /* ViewController.swift */,
+				15EC7BDB1EE4B7D400DC3673 /* Main.storyboard */,
+				15EC7BDE1EE4B7D400DC3673 /* Assets.xcassets */,
+				15EC7BE01EE4B7D400DC3673 /* LaunchScreen.storyboard */,
+				15EC7BE31EE4B7D400DC3673 /* Info.plist */,
+			);
+			path = RetroCalc;
+			sourceTree = "<group>";
+		};
+		15EC7BEB1EE4B7D400DC3673 /* RetroCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				15EC7BEC1EE4B7D400DC3673 /* RetroCalcTests.swift */,
+				15EC7BEE1EE4B7D400DC3673 /* Info.plist */,
+			);
+			path = RetroCalcTests;
+			sourceTree = "<group>";
+		};
+		15EC7BF61EE4B7D400DC3673 /* RetroCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15EC7BF71EE4B7D400DC3673 /* RetroCalcUITests.swift */,
+				15EC7BF91EE4B7D400DC3673 /* Info.plist */,
+			);
+			path = RetroCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15EC7BD31EE4B7D400DC3673 /* RetroCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EC7BFC1EE4B7D400DC3673 /* Build configuration list for PBXNativeTarget "RetroCalc" */;
+			buildPhases = (
+				15EC7BD01EE4B7D400DC3673 /* Sources */,
+				15EC7BD11EE4B7D400DC3673 /* Frameworks */,
+				15EC7BD21EE4B7D400DC3673 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroCalc;
+			productName = RetroCalc;
+			productReference = 15EC7BD41EE4B7D400DC3673 /* RetroCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15EC7BCC1EE4B7D400DC3673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "John Peppe";
+				TargetAttributes = {
+					15EC7BD31EE4B7D400DC3673 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 94NP446562;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 15EC7BCF1EE4B7D400DC3673 /* Build configuration list for PBXProject "RetroCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15EC7BCB1EE4B7D400DC3673;
+			productRefGroup = 15EC7BD51EE4B7D400DC3673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15EC7BD31EE4B7D400DC3673 /* RetroCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15EC7BD21EE4B7D400DC3673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EC7BE21EE4B7D400DC3673 /* LaunchScreen.storyboard in Resources */,
+				15EC7BDF1EE4B7D400DC3673 /* Assets.xcassets in Resources */,
+				15B297361EE4CAE300B42007 /* Minecraft.ttf in Resources */,
+				15EC7BDD1EE4B7D400DC3673 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15EC7BD01EE4B7D400DC3673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EC7BDA1EE4B7D400DC3673 /* ViewController.swift in Sources */,
+				15EC7BD81EE4B7D400DC3673 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15EC7BDB1EE4B7D400DC3673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EC7BDC1EE4B7D400DC3673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15EC7BE01EE4B7D400DC3673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EC7BE11EE4B7D400DC3673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15EC7BFA1EE4B7D400DC3673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15EC7BFB1EE4B7D400DC3673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15EC7BFD1EE4B7D400DC3673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94NP446562;
+				INFOPLIST_FILE = RetroCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7yaPeppe.RetroCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		15EC7BFE1EE4B7D400DC3673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94NP446562;
+				INFOPLIST_FILE = RetroCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7yaPeppe.RetroCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15EC7BCF1EE4B7D400DC3673 /* Build configuration list for PBXProject "RetroCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EC7BFA1EE4B7D400DC3673 /* Debug */,
+				15EC7BFB1EE4B7D400DC3673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EC7BFC1EE4B7D400DC3673 /* Build configuration list for PBXNativeTarget "RetroCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EC7BFD1EE4B7D400DC3673 /* Debug */,
+				15EC7BFE1EE4B7D400DC3673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15EC7BCC1EE4B7D400DC3673 /* Project object */;
+}
